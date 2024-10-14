@@ -50,6 +50,8 @@
     target: /app/schema/backend.sql
     name: all
     state: import
+  timeout: 600
+  ignore_errors: yes 
 
 - name: daemon reload
   tags:
